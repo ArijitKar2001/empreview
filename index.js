@@ -29,7 +29,7 @@ const myMware = require("./config/middleware");
 const MongoStore = require("connect-mongo");
 
 // port
-const { PORT } = process.env;
+const PORT = 3000;
 
 // creatin app
 const app = express();
@@ -65,7 +65,7 @@ app.set("views", "./views");
 // Use express-session for session management
 app.use(
   session({
-    secret: process.env.SECRET_KEY, // Replace with your own secret key
+    secret: "codingninjas", // Replace with your own secret key
     resave: false,
     saveUninitialized: false,
     cookie: {
@@ -74,7 +74,7 @@ app.use(
     },
     // store the session in database
     store: MongoStore.create({
-      mongoUrl: process.env.MONGODB_URL,
+      mongoUrl: MONGODB_URL,
     }),
   })
 );
