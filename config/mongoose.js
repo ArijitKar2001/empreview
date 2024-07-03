@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 // mongoDB url stored in env variable
 const MONGODB_URL =
-  "mongodb+srv://user1:Password1@cluster0.fios3wg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/empreview";
+  "mongodb+srv://user1:Password1@cluster0.fios3wg.mongodb.net/emp?retryWrites=true&w=majority&appName=Cluster0";
 
 // connect to database
 exports.connect = () => {

@@ -74,7 +74,8 @@ app.use(
     },
     // store the session in database
     store: MongoStore.create({
-      mongoUrl: MONGODB_URL,
+      mongoUrl:
+        "mongodb+srv://user1:Password1@cluster0.fios3wg.mongodb.net/emp?retryWrites=true&w=majority&appName=Cluster0",
     }),
   })
 );
