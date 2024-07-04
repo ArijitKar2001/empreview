@@ -40,43 +40,37 @@
   - Open your web browser and serach for 'localhost:{PORT}/' to see the output.
 
 # Folder Structure
-├── Employee-Review/
-│   ├── assets/
-│   │   ├── image/
-│   │   │   ├── brand-logo.png
-│   │   │   └── manager.png
-│   │
-│   ├── config/
-│   │   ├── middleware.js
-│   │   ├── mongoose.js
-│   │   └── passport_local.js
-│   │
-│   ├── controllers/
-│   │   ├── adminController.js
-│   │   ├── employeeController.js
-│   │   └── userController.js
-│   │
-│   ├── models/
-│   │   ├── User.js
-│   │   └── feedback.js
-│   │
-│   ├── routes/
-│   │   ├── admin.js
-│   │   ├── employee.js
-│   │   ├── index.js
-│   │   └── user.js
-│   │
-│   ├── views/
-│   │   ├── _header.ejs
-│   │   ├── addEmployee.ejs
-│   │   ├── admin.ejs
-│   │   ├── employee.ejs
-│   │   ├── layout.ejs
-│   │   ├── signIn.ejs
-│   │   ├── signUp.ejs
-│   │   └── updateForm.ejs
-│   │
-│   ├── README.md
-│   ├── index.js
-│   ├── package-lock.json
-│   └── package.json
+- Employee-Review/
+    - assets/
+            - image/
+                  - brand-logo.png
+                  - manager.png
+    - config/
+            - middleware.js
+            - mongoose.js
+            - passport_local.js
+    - controllers/
+            - adminController.js
+            - employeeController.js
+            - userController.js
+    - models/
+            - User.js
+            - feedback.js
+    - routes/
+            - admin.js
+            - employee.js
+            - index.js
+            - user.js
+    - views/
+            - _header.ejs
+            - addEmployee.ejs
+            - admin.ejs
+            - employee.ejs
+            - layout.ejs
+            - signIn.ejs
+            - signUp.ejs
+            - updateForm.ejs
+    - README.md
+    - index.js
+    - package-lock.json
+    - package.json
